@@ -119,11 +119,13 @@ public class GameViewController {
 
     private void addNewLabelToPane(Event event){
         Label label = new Label(String.valueOf(currentPlayerMove));
-        label.setStyle("-fx-font-size: 36; -fx-text-fill: " + (currentPlayerMove == 'X' ? "red;" : "blue;") +
-                "-fx-alignment: center; -fx-alignment: center; -fx-content-display: center;");
+
         Pane clickedPane = (Pane) event.getSource();
         clickedPane.getChildren().add(label);
-        clickedPane.setStyle("-fx-background-color: lightblue; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid;");
+        label.setStyle("-fx-font-size: 36; -fx-text-fill: " + (currentPlayerMove == 'X' ? "red;" : "blue;")
+                + "-fx-content-display: center;");
+        label.layoutXProperty().bind(clickedPane.widthProperty().subtract(label.widthProperty()).divide(2));
+        label.layoutYProperty().bind(clickedPane.heightProperty().subtract(label.heightProperty()).divide(2));
     }
 
 
