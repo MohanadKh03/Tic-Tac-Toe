@@ -1,4 +1,4 @@
-package com.mohanad.tictactoe;
+package com.mohanad.tictactoe.util;
 
 public final class PlayersDetails {
     public static String username1;

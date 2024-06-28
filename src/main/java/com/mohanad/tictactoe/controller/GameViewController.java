@@ -1,21 +1,17 @@
-package com.mohanad.tictactoe;
+package com.mohanad.tictactoe.controller;
 
-import javafx.event.ActionEvent;
+import com.mohanad.tictactoe.util.FXHelpers;
+import com.mohanad.tictactoe.util.PlayersDetails;
 import javafx.event.Event;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
-import javafx.scene.input.InputEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.Stack;
 
 public class GameViewController {
     @FXML

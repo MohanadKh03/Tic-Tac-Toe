@@ -1,5 +1,6 @@
-package com.mohanad.tictactoe;
+package com.mohanad.tictactoe.util;
 
+import com.mohanad.tictactoe.Main;
 import javafx.event.Event;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
