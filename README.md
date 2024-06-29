@@ -27,7 +27,14 @@ This project is built using Java 21 and JDK 21, leveraging JavaFX for the user i
     cd <project_directory>
     ```
 
-## Steps to Run
+## Usage
+
+1. Run the application:
+    ```sh
+    mvn javafx:run
+    ```
+
+## Steps to Pacakge the application
 
 1. Clean any build files inside the `target` directory:
     ```sh
@@ -40,12 +47,5 @@ This project is built using Java 21 and JDK 21, leveraging JavaFX for the user i
 3. Run the application:
     ```sh
     java -jar target/tic-tac-toe-{VERSION}.jar
-    ```
-
-## Usage
-
-1. Run the application:
-    ```sh
-    mvn javafx:run
     ```
 
