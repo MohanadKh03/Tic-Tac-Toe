@@ -24,7 +24,7 @@ This project is built using Java 21 and JDK 21, leveraging JavaFX for the user i
     ```
 3. Navigate to the project directory:
     ```sh
-    cd <project_directory>
+    cd tic-tac-toe
     ```
 
 ## Usage
