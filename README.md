@@ -27,14 +27,7 @@ This project is built using Java 21 and JDK 21, leveraging JavaFX for the user i
     cd tic-tac-toe
     ```
 
-## Usage
-
-1. Run the application:
-    ```sh
-    mvn javafx:run
-    ```
-
-## Steps to Pacakge the application
+## Steps to Pacakge and Run the application
 
 1. Clean any build files inside the `target` directory:
     ```sh
